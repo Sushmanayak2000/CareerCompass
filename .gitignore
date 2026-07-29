@@ -1,0 +1,51 @@
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+.env
+.env.*
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Large datasets
+# ==========================
+postings.csv
+linkedin_jobs_clean.csv
+linkedin_jobs_preprocessed.csv
+linkedin_jobs_clustered.csv
+
+# ==========================
+# Embeddings
+# ==========================
+job_sbert_embeddings.npy
+job_sbert_finetuned_embeddings.npy
+
+# ==========================
+# Training checkpoints
+# ==========================
+checkpoints/
+
+# ==========================
+# Logs
+# ==========================
+*.log
