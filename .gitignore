@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large dataset
+data/postings.csv
+
+# Generated processed datasets
+data/processed/*.csv
+
+# NLTK resources
+data/nltk_data/
+
+# Model and embedding artifacts
+artifacts/*.npy
+models/
+
+# Pickle files
+*.pkl
+*.joblib
+*.pickle
