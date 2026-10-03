@@ -5,3 +5,6 @@ scikit-learn
 sentence-transformers
 torch
 joblib
+streamlit
+pdfplumber
+jupyter
